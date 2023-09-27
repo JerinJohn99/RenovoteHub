@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reg page</title>
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    .left {
+        height: 750px;
+        width: 630px;
+        background-image: url("co.png");
+        background-color: #37939F;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+
+    }
+
+    .right {
+        background-color:#37939F;
+        height: 750px;
+        width: 1195px;
+    }
+
+    .full {
+        display: flex;
+    }
+
+
+    .log {
+        margin-left: 500px;
+        margin-top: 120px;
+    }
+
+
+    form {
+        margin-left: 400px;
+        margin-top: 120px;
+    }
+
+
+    .login {
+        margin-left: 200px;
+        margin-top: 80px;
+        border-radius: 20px;
+    }
+
+    #login1 {
+        padding: 10px 30px;
+        border-radius: 20px;
+        background-color: green;
+        color: aliceblue;
+        cursor: pointer;
+
+    }
+
+
+    .user,
+    .pass {
+        font-size: x-large;
+    }
+
+
+    #user,
+    #pass {
+        padding: 8px 30px;
+        border-radius: 20px;
+        box-shadow: 2px 4px;
+    }
+
+
+    #login1:hover {
+        background-color: aqua;
+        color: black;
+    }
+
+    .row{
+        display: flex;
+        height: 120px;
+        width: 700px;
+        margin-top: 40px    ;
+    }
+
+
+    /* .register {}
+
+    .get {} */
+
+    .reg {
+        margin-left: 10px;
+        font-size: x-large;
+        color: red;
+        text-decoration: none;
+
+
+    }
+
+#reg1{
+    text-decoration: none;
+
+}
+
+    a:hover{
+        color: red;
+        cursor: pointer;
+    }
+
+
+</style>
+
+
+<body>
+
+    <div class="full">
+
+
+        <div class="left">
+
+
+
+        </div>
+
+
+
+        <div class="right">
+
+
+            <div class="log">
+
+                <h1>Login</h1>
+
+            </div>
+
+
+            <form action="node.js">
+
+                <div class="user">
+                    <label for="username">Username:</label>
+                    <input type="text" name="User" id="user">
+                </div>
+                <br>
+
+                <div class="pass">
+                    <label for="username">Password:</label>
+                    <input type="password" name="Pass" id="pass">
+                </div>
+
+
+                <div class="login">
+                    <input type="submit" value="Login" id="login1">
+                </div>
+
+
+
+                <div class="row">
+                    <div class="register">
+
+                        <h2>Don't have Account ? Get</h2>
+                        
+
+                    </div>
+
+                    <div class="reg">
+                        <a href="register.html" id="reg1">Register</a>
+                    </div>
+                </div>
+
+
+
+            </form>
+
+
+
+
+        </div>
+    </div>
+</body>
+
+</html>

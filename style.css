@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    /* background-color: #24252A; */
+}
+
+/* li,a,button{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    position: fixed;
+}
+.logo{
+    cursor: pointer;
+    height: 50px;
+    width: 150px;
+    
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline;
+    padding: 20px 20px;
+
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+
+}
+.nav_links li a:hover{
+    color: blue;
+}
+button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+} */
+
+
+
+.slider{
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    border-color: black;
+
+
+}
+.slides{
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+.slides input{
+    display: none;
+}
+
+.slide{
+    width:20%;
+    transition: 2s;
+}
+.slide img{
+    width: 100%;
+    height: 500px;
+}
+.navigation-manual{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+
+
+}
+.manual-btn{
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+
+}
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+.manual-btn:hover{
+    background:#40D3DC;
+}
+
+#radio1:checked ~.first{
+    margin-left: 0;
+}
+
+#radio2:checked ~.first{
+    margin-left: -20%;
+}
+#radio3:checked ~.first{
+    margin-left: -40%;
+}
+#radio4:checked ~.first{
+    margin-left: -60%;
+}
+
+
+.navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 1200px;
+    justify-content: center;
+    margin-top:460px;
+
+}
+.navigation-auto div{
+    border:2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+
+}
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background:#40D3DC;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background:#40D3DC;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background:#40D3DC;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background:#40D3DC;
+}
+
+
+
+
+
+
+
+
+nav {
+    display: flex;
+    padding: 25px;
+    background-color: black;
+    color: aqua;
+    width: 100%;
+    position: fixed;
+    height: 100px;
+}
+
+
+label.logo {
+    color: yellow;
+    line-height: 80px;
+    height: 150px;
+    font-size: 35px;
+    padding: 0 100px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+
+}
+nav ul li{
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 10px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+}
+nav ul li a:hover{
+    color: green;
+    transition: all .5s;
+}
+
+button {
+    padding: 20px 50px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    float: right;
+}
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+
+}
+
+
+
+
+
+
+
+
+.renovate{
+    text-align: center;
+    padding: 5px;
+    border: 200cm;
+    border-color: black;
+    margin-top: 2px;
+    justify-content:space-between;
+    align-items:center;
+
+
+}
+
+
+img{
+        width: 300px;
+        height: 200px;
+        margin-left: 30px;   /* Horizontal Space */
+        margin-top: 30px;  /* Vertical Space */
+        border: 1px solid black;
+    }
+    
+.application{
+    text-align: center;
+    padding: 5px;
+    border: 200cm;
+    border-color: black;
+    margin-top: 2px;
+    justify-content:space-between;
+    align-items:center;
+
+}
+.pic{
+    display: flex;
+    cursor: pointer;
+    
+}

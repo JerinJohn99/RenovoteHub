@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <header>
+        
+        <nav>
+
+        <img class="logo" src="renovate-hub-logo.png" alt="logo">
+       <ul class="nav_links">
+        <li><a href="#">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <a class="login" href="#"><button>Login</button></a>
+    </header> -->
+
+
+
+    <style>
+
+
+        #log{
+            margin-left: 360px;
+        }
+
+        #log:hover{
+            background-color: aqua;
+            color: black;
+        }
+
+        #reg:hover{
+            background-color: aqua;
+            color: black;
+        }
+
+
+
+    </style>
+
+        <nav>
+
+            <label class="logo">RenovateHub</label>
+            <ul>
+               <li> <a href="home.html">Home</a></li>
+
+
+  
+                <li><a href="about.html">About</a></li>
+
+
+         
+
+                <li><a href="#">Contact us</a></li>
+   
+                <li><a href="login.html"><button id="log">Login</button></a></li>
+
+                <li><a href="register.html"><button id="reg">Register</button></a></li>
+            </ul>
+        </nav>
+
+<!-- css oflower content -->
+
+
+<style>
+
+
+.pic{
+    margin-left: 220px;
+}
+
+
+
+
+
+</style>
+
+    <div class="slider">
+        <div class="slides">
+            <input type="radio" name="radio-btn"  id="radio1">
+            <input type="radio" name="radio-btn"  id="radio2">
+            <input type="radio" name="radio-btn"  id="radio3">
+            <input type="radio" name="radio-btn"  id="radio4">
+
+            <div class="slide first">
+                <img src="pic1.jpg" alt="">
+            </div>
+            <div class="slide ">
+                <img src="pic2.jpg" alt="">
+            </div>
+            <div class="slide ">
+                <img src="pic3.jpg" alt="">
+            </div>
+            <div class="slide ">
+                <img src="pic4.jpg" alt="">
+            </div>
+
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+        </div>
+
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+
+
+        
+    </div>
+    <br>
+    <div class="renovate">
+        <h1 >Renovation On Home</h1>
+        <p>Top Proffesionals | Low-service Workes</p>
+
+        <div class="pic">
+        <figure>
+        <a href="kitchen.html"><img src="kitchen.jpg"></a>
+        <figcaption>Kitchen</figcaption>
+        </figure>
+
+        <figure>
+            <a href="bathroom.html"><img src="bathroom.jpg"></a>
+            <figcaption>Bathroom</figcaption>
+        </figure>
+       <figure>
+        <a href="Living.html"><img src="room.jpg"></a>
+        <figcaption>Living Room</figcaption>
+       </figure>
+  
+    </div>
+    <div class="application">
+        <h1 style="text-align: center;" >Applications</h1>
+        <p>Servicing, Repairs, Installation & Uninstallation</p>
+
+        <div class="pic">
+        <figure>
+        <a href="painter.html"><img src="painting.jpg"></a>
+        <figcaption>Painter</figcaption>
+    </figure>
+    <figure>
+
+        <a href="carpenter.html"><img src="carp.jpg"></a>
+        <figcaption>Carpenter</figcaption>
+
+    </figure>
+    <figure>
+        <a href="plumber.html"><img src="plumber (1).jpg"></a>
+        <figcaption>Plumber</figcaption>
+    </figure>
+    </div>
+
+    
+
+ 
+    <script type="text/javascript">
+        var counter =1;
+        setInterval(function(){
+            document.getElementById('radio'+counter).checked=true;
+            counter++;
+            if(counter>4){
+                counter=1;
+            }
+        },4000);
+        
+    </script>
+    
+</body>
+</html>
